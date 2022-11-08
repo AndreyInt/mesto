@@ -1,5 +1,5 @@
 # Проект: Место
-* [Ссылка на проект](andreyint.github.io/mesto/)
+* [Ссылка на проект](https://andreyint.github.io/mesto/)
 
 ### Обзор
 

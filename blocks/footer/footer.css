@@ -1,0 +1,25 @@
+.footer {
+  margin: 67px auto 60px auto;
+  color: white;
+  width: 68.75%;
+}
+
+@media screen and (max-width:1279.9px) {
+  .footer {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width:1023.9px) {
+  .footer {
+    width: 90%;
+    margin: 58px auto 46px auto;
+  }
+}
+
+@media screen and (max-width:767.9px) {
+  .footer {
+    width: 88.125%;
+    margin: 48px auto 36px auto;
+  }
+}

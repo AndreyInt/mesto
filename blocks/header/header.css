@@ -1,0 +1,29 @@
+.header {
+  width: 68.75%;
+  height: 74px;
+  position: relative;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(84, 84, 84, .7);
+  margin: 45px auto 0 auto;
+}
+
+@media screen and (max-width:1279.9px) {
+  .header {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width:1023.9px) {
+  .header {
+    width: 90%;
+    margin: 35px auto 0 auto;
+  }
+}
+
+@media screen and (max-width:767.9px) {
+  .header {
+    width: 100%;
+    margin: 28px auto 0 auto;
+    height: 56px;
+  }
+}

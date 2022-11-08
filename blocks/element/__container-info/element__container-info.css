@@ -1,0 +1,7 @@
+.element__container-info {
+  /* margin: 25px 21px 31px 15px; */
+  margin: 0 21px 0 15px;
+  display: flex;
+  justify-content: space-between;
+  width: 87.234%;
+}

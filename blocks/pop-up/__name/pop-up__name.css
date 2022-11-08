@@ -15,7 +15,6 @@
 /* В макете (фигме) не было показано как толжен выглядить инпут при фокусе */
 .pop-up__name:focus {
   color: black;
-  background-color: white;
   border-color: #bdbdbd;
   border-bottom: 0;
   background-color: rgba(194, 194, 194,0.2);

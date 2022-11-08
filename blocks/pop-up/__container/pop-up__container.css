@@ -16,7 +16,7 @@
   .pop-up__container {
     width: 282px;
     height: 322px;
-    top: calc(50% - 322/2);
+    top: calc(50% - 322px/2);
     left: calc(50% - 282px/2);
   }
 }

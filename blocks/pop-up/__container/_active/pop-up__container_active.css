@@ -2,6 +2,6 @@
   opacity: 0;
   -webkit-transition: opacity 100ms ease-in;
   -moz-transition: opacity 100ms ease-in;
-  transition: opacity 100ms ease-in; 
+  transition: opacity 100ms ease-in;
   pointer-events: none;
 }

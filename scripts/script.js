@@ -8,7 +8,6 @@ const nameProfile = document.querySelector('.profile__name'); // Текущее 
 const jobProfile = document.querySelector('.profile__job'); // Текущее значение
 const exitForm = document.querySelector('.pop-up__close');
 const elementLike = document.querySelector('.elements').querySelectorAll('.element__like');
-//elementLike.forEach((el) => el.classList.remove("element__like_active")); // сбрасываем лайк
 FormBackgroundColor.classList.remove('pop-up'); // снимаем затемнение страницы 
 startPopupValues();
 exitForm.addEventListener('click', exitPopup); // закрытие по кнопке крестик 

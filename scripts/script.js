@@ -7,7 +7,7 @@ const profileEdit = document.querySelector('.profile__edit'); // Изменит�
 const nameProfile = document.querySelector('.profile__name'); // Текущее значение
 const jobProfile = document.querySelector('.profile__job'); // Текущее значение
 const exitForm = document.querySelector('.pop-up__close');
-const elementLike = document.querySelector('.elements').querySelectorAll('.element__like_active');
+const elementLike = document.querySelector('.elements').querySelectorAll('.element__like');
 //elementLike.forEach((el) => el.classList.remove("element__like_active")); // сбрасываем лайк
 FormBackgroundColor.classList.remove('pop-up'); // снимаем затемнение страницы 
 startPopupValues();
@@ -58,5 +58,5 @@ function exitPopup() {
 }
 
 function elementLikeActive(el) {
-  el.classList.toggle('pop-up__container_active')
+  el.classList.toggle('element__like_active')
 }

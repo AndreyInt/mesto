@@ -2,21 +2,19 @@
   display: flex;
   background-color: white;
   flex-direction: column;
+  flex-wrap: nowrap;
   border-radius: 10px;
   margin: 0;
-  position: fixed;
-  top: calc(50% - 330px/2);
-  left: calc(50% - 430px/2);
-  width: 430px;
-  height: 330px;
+  position: relative;
+  box-sizing: border-box;
+  min-width: 430px;
+  max-width: 100%;
   align-items: center;
+  justify-content: center;
 }
 
 @media screen and (max-width:767.9px) {
   .pop-up__container {
-    width: 282px;
-    height: 322px;
-    top: calc(50% - 322px/2);
-    left: calc(50% - 282px/2);
+    min-width: 282px;
   }
 }

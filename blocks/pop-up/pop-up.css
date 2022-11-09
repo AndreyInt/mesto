@@ -1,7 +1,7 @@
 .pop-up { 
   background-color: rgba(0,0,0,0.5);
   position: fixed;
-  display: flex !important;
+  display: none;
   justify-content: center;
   align-items: center;
   left: 0;

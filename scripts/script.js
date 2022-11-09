@@ -22,6 +22,7 @@ elementLike.forEach(el => el.addEventListener('click', () => elementLikeActive(e
 // !-----------------------------------------------------------------------
 
 function openPopup() {
+  FormBackgroundColor.setAttribute('style', 'display:flex');
   startPopupValues();
   FormBackgroundColor.classList.add('pop-up');
   document.body.style.overflow = 'hidden'; // чтоб нельзя было скролить страницу когда открыто модальное окно
@@ -35,6 +36,7 @@ function editPopup(evt) {
   popupContainer.classList.add('pop-up__container_active');
   FormBackgroundColor.classList.remove('pop-up');
   document.body.style = '';
+  FormBackgroundColor.setAttribute('style', 'display:none');
 }
 
 // document.querySelector('.pop-up__container').addEventListener('click', (event) => event.stopPropagation());
@@ -44,6 +46,7 @@ function closeOnClickOutside(e) {
     popupContainer.classList.add('pop-up__container_active');
     FormBackgroundColor.classList.remove('pop-up');
     document.body.style = '';
+    FormBackgroundColor.setAttribute('style', 'display:none');
   }
 }
 
@@ -52,6 +55,7 @@ function closeOnClickEsc(e) {
     popupContainer.classList.add('pop-up__container_active');
     FormBackgroundColor.classList.remove('pop-up');
     document.body.style = '';
+    FormBackgroundColor.setAttribute('style', 'display:none');
   }
 }
 
@@ -64,6 +68,7 @@ function exitPopup() {
   popupContainer.classList.add('pop-up__container_active');
   FormBackgroundColor.classList.remove('pop-up');
   document.body.style = '';
+  FormBackgroundColor.setAttribute('style', 'display:none');
 }
 
 function elementLikeActive(el) {

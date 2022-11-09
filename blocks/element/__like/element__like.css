@@ -11,6 +11,8 @@
   cursor: pointer;
 }
 
-.element__like:hover {
-  opacity: 0.5;
+@media screen and (min-width:767.9px) { /* иначе на мобильных устройствах после нажатия лайка будет эффект выделеного эл-та*/
+  .element__like:hover {
+    opacity: 0.5;
+  }
 }

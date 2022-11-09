@@ -1,8 +1,10 @@
 .pop-up__header {
   font-weight: 900;
   font-size: 24px;
-  line-height: 29px;
-  margin: 34px auto 0 36px;
+  line-height: 23px;
+  padding: 34px 0 0 36px;
+  margin: 0 auto 0 0;
+  white-space: nowrap;
 }
 
 @media screen and (max-width:767.9px) {
@@ -10,7 +12,8 @@
     font-weight: 900;
     font-size: 18px;
     line-height: 22px;
-    margin: 25px auto 0 auto;
+    padding: 25px 0 0 0;
+    margin: 0 auto;
     text-align: center;
   }
 }

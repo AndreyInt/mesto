@@ -22,11 +22,12 @@
 @import url(../blocks/pop-up/pop-up.css);
 @import url(../blocks/pop-up/_is-opened/pop-up_is-opened.css);
 @import url(../blocks/pop-up/__header/pop-up__header.css);
-@import url(../blocks/profile/__job/profile__job_input.css);
-@import url(../blocks/profile/__name/profile__name_input.css);
+@import url(../blocks/pop-up/__input/_profile/pop-up__input_profile_job.css);
+@import url(../blocks/pop-up/__input/_profile/pop-up__input_profile_name.css);
 @import url(../blocks/pop-up/__container/pop-up__container.css);
 @import url(../blocks/pop-up/__save/pop-up__save.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__author/footer__author.css);
 @import url(../blocks/pop-up/__close/pop-up__close.css);
 @import url(../blocks/input/input.css);
+@import url(../blocks/pop-up/__input/pop-up__input.css);

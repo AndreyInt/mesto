@@ -10,7 +10,7 @@
   background-size: contain;
   position: absolute;
   top: -40px;
-  right: 0px;
+  right: -40px;
   transition: opacity 0.3s ease;
   cursor: pointer;
 }

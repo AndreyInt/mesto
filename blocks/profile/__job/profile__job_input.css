@@ -1,0 +1,11 @@
+.profile__job_input {
+  margin: 30px auto 0 auto;
+  width: 358px;
+}
+
+@media screen and (max-width:767.9px) {
+  .profile__job_input {
+    margin: 30px auto 0 auto;
+    width: 238px;
+  }
+}

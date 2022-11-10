@@ -1,9 +1,7 @@
-.pop-up__name {
-  margin: 54px auto 0 auto;
+.input {
   font-family: inherit;
   display: block;
   padding: 0 0 9px 0;
-  width: 358px;
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
@@ -12,19 +10,10 @@
   border-bottom: 1px solid rgba(0,0,0,0.2);
 }
 
-/* В макете (фигме) не было показано как толжен выглядить инпут при фокусе */
-.pop-up__name:focus {
-  color: black;
+.input:focus {
   border-color: #bdbdbd;
   border-bottom: 0;
   background-color: rgba(194, 194, 194,0.2);
   outline: 0;
   box-shadow: 0 0 0 0.1rem rgba(158, 158, 158, 0.3);
-}
-
-@media screen and (max-width:767.9px) {
-  .pop-up__name {
-    margin: 75px auto 0 auto;
-    width: 238px;
-  }
 }

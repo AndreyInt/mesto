@@ -1,9 +1,0 @@
-.pop-up__input_profile_job {
-  margin: 30px auto 0 auto;
-}
-
-@media screen and (max-width:767.9px) {
-  .pop-up__input_profile_job {
-    margin: 30px auto 0 auto;
-  }
-}

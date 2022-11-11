@@ -1,14 +1,13 @@
-const popupContainerElement = document.querySelector('.pop-up__container');  
 const popupElement = document.querySelector('.pop-up'); 
-const popupInputProfileNameElement = popupContainerElement.querySelector('.pop-up__input_profile_name');
-const popupInputProfileJobElement = popupContainerElement.querySelector('.pop-up__input_profile_job'); 
+const popupInputProfileNameElement = document.querySelector('.pop-up__input_profile_name');
+const popupInputProfileJobElement = document.querySelector('.pop-up__input_profile_job'); 
 const popupOpenButtonElement = document.querySelector('.profile__edit'); 
 const profileName = document.querySelector('.profile__name'); 
 const profileJob = document.querySelector('.profile__job'); 
 const popupExitButtonElement = document.querySelector('.pop-up__close');
 popupExitButtonElement.addEventListener('click', exitPopup); 
 popupOpenButtonElement.addEventListener('click', openPopup);
-popupContainerElement.addEventListener('submit', editPopup); 
+document.querySelector('#input__profile_data').addEventListener('submit', editPopup); 
 
 // !-----------------------------------------------------------------------
 
@@ -21,7 +20,7 @@ function editPopup(evt) {
   evt.preventDefault();
   profileName.textContent = popupInputProfileNameElement.value;
   profileJob.textContent = popupInputProfileJobElement.value;
-  popupElement.classList.remove('pop-up_is-opened');
+  exitPopup();
 }
 
 function startPopupValues() {

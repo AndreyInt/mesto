@@ -5,7 +5,7 @@
   grid-template-rows: repeat(2, max-content);
   align-items: center;
   column-gap: 18px;
-  row-gap: 16px;
+  row-gap: 9px;
   justify-self: flex-start;
 }
 
@@ -14,6 +14,6 @@
     margin: 26px auto 0 auto;
     justify-items: center;
     column-gap: 10px;
-    row-gap: 14px;
+    row-gap: 7px;
   }
 }

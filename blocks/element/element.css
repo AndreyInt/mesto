@@ -3,7 +3,7 @@
   background-color: white;
   width: 100%;
   height: fit-content;
-  /* overflow: hidden; Если не скрывать то у фото пропадает округление углов сверху (бордер радиус) по брифу же он присутствует*/
+  overflow: hidden;
   line-height: 0;
 }
 

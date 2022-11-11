@@ -5,9 +5,10 @@ const popupOpenButtonElement = document.querySelector('.profile__edit');
 const profileName = document.querySelector('.profile__name'); 
 const profileJob = document.querySelector('.profile__job'); 
 const popupExitButtonElement = document.querySelector('.pop-up__close');
+const popupFormElement = document.querySelector('.pop-up__form');
 popupExitButtonElement.addEventListener('click', exitPopup); 
 popupOpenButtonElement.addEventListener('click', openPopup);
-document.querySelector('#input__profile_data').addEventListener('submit', editPopup); 
+popupFormElement.addEventListener('submit', editPopup); 
 
 // !-----------------------------------------------------------------------
 
